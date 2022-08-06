@@ -1,0 +1,21 @@
+{
+    "configurations": {
+        "Launch": {
+            "adapter": "debugpy",
+            "filetypes": [ "python" ],
+            "configuration": {
+                "type": "python",
+                "request": "launch",
+                "args": [
+                    "${workspaceRoot}/samples/test.em"
+                ],
+                "cwd": "${workspaceRoot}",
+                "python": "/usr/bin/python3",
+                "stopOnEntry": true,
+                "console": "externalTerminal",
+                "debugOptions": [],
+                "program": "${workspaceRoot}/src/main.py"
+            }
+        }
+    }
+}
